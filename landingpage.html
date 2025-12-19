@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BinCare.ca - Professional Bin Cleaning Service</title>
+    <link rel="icon" type="image/png" href="binclean.png">
+    <link rel="shortcut icon" type="image/png" href="binclean.png">
+    <link rel="apple-touch-icon" href="binclean.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo-section">
+                <a href="/" class="logo-link">
+                    <img src="bincarelogo.png" alt="BinCare.ca" class="site-logo-img">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-banner">
+        <div class="hero-content">
+            <h2 class="hero-title">Professional Bin Cleaning Service</h2>
+            <p class="hero-subtitle">Keep your bins clean, fresh, and odor-free with our eco-friendly cleaning process</p>
+            <a href="#join-waitlist" class="cta-button">Join Waitlist</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-wrapper">
+        <!-- Reviews Section with NiceJob -->
+        <section class="reviews-section">
+            <div class="container">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <div class="reviews-container">
+                    <!-- NiceJob Reviews Widget -->
+                    <div id="nicejob-reviews" class="nicejob-widget">
+                        <!-- NiceJob embed will be inserted here -->
+                        <!-- Replace YOUR_NICEJOB_ID with your actual NiceJob business ID -->
+                        <iframe 
+                            src="https://widget.nicejob.co/reviews/YOUR_NICEJOB_ID" 
+                            width="100%" 
+                            height="600" 
+                            frameborder="0" 
+                            style="border-radius: 12px;"
+                            title="Customer Reviews">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Process Section -->
+        <section class="process-section">
+            <div class="container">
+                <h2 class="section-title">Our Process</h2>
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h3 class="step-title">Step 1</h3>
+                        <p class="step-description">The day after your garbage day, leave your bins at the end of your driveway and we will arrive between 7am and 6 pm.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h3 class="step-title">Step 2</h3>
+                        <p class="step-description">Upon arrival, we will begin the process of sanitizing and deodorizing your bins curb-side.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h3 class="step-title">Step 3</h3>
+                        <p class="step-description">Our custom built cleaning equipment collects all the grey water to be disposed of at a designated sani-dump.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h3 class="step-title">Step 4</h3>
+                        <p class="step-description">Your bins have now been sanitized with 200 degree water and 3000 psi killing 99% of dangerous germs and bacteria.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">5</div>
+                        <h3 class="step-title">Step 5</h3>
+                        <p class="step-description">Your bins receive a final inspection and an eco-friendly odor treatment before we return it to the curb-side where it was picked up.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Clean Section -->
+        <section class="why-section">
+            <div class="container">
+                <h2 class="section-title">Why Clean your Garbage Bins?</h2>
+                <div class="why-content">
+                    <p>Our eco-friendly process cleans and disinfect your bins removing stains and eliminating odors</p>
+                    <p>High temperature pressure washing kills 99.9% of germs & viruses plus avoids unwanted bears, pests & rodents</p>
+                    <p>Our process is simple, cost effective and we offer service plans on a schedule to fit your needs.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Waitlist Form Section -->
+        <section id="join-waitlist" class="waitlist-section">
+            <div class="container">
+                <div class="waitlist-container">
+                    <div class="waitlist-header">
+                        <h2 class="waitlist-title">Join Our Waitlist</h2>
+                        <p class="waitlist-subtitle">Launching March 2026 - Be among the first to experience our professional bin cleaning service</p>
+                    </div>
+
+                    <form id="optInForm" class="waitlist-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName" class="form-label">Full Name</label>
+                                <input 
+                                    type="text" 
+                                    id="fullName" 
+                                    name="fullName" 
+                                    class="form-input"
+                                    placeholder="Enter your full name" 
+                                    required
+                                    autocomplete="name"
+                                >
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    class="form-input"
+                                    placeholder="your.email@example.com" 
+                                    required
+                                    autocomplete="email"
+                                >
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input 
+                                    type="tel" 
+                                    id="phone" 
+                                    name="phone" 
+                                    class="form-input"
+                                    placeholder="(555) 123-4567" 
+                                    required
+                                    autocomplete="tel"
+                                >
+                            </div>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Join Waitlist</span>
+                        </button>
+                    </form>
+
+                    <div id="successMessage" class="success-message hidden">
+                        <div class="success-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <h3 class="success-title">Thank You!</h3>
+                        <p class="success-text">We've received your information and will be in touch soon.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Important Information -->
+        <section class="info-section">
+            <div class="container">
+                <h3 class="info-title">Important Information</h3>
+                <ul class="info-list">
+                    <li>No contract is required for service.</li>
+                    <li>Quarterly and Monthly service requires a 3 visit minimum or be billed for a One Time Cleaning fee.</li>
+                    <li>One Time Cleaning: Sign up for a Quarterly or Monthly plan within 60 days and have the difference applied as a credit.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-contact">
+                    <p><strong>Phone / Text:</strong> <a href="tel:5194976122">519-497-6122</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:info@bincare.ca">info@bincare.ca</a></p>
+                    <p>Serving the Tri-City, Ontario</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BinCare.ca. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot -->
+    <div id="chatbot-container" class="chatbot-container">
+        <div id="chatbot-toggle" class="chatbot-toggle">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+        </div>
+        <div id="chatbot-window" class="chatbot-window hidden">
+            <div class="chatbot-header">
+                <h3>BinCare Support</h3>
+                <button id="chatbot-close" class="chatbot-close">×</button>
+            </div>
+            <div id="chatbot-messages" class="chatbot-messages"></div>
+            <div class="chatbot-input-container">
+                <input type="text" id="chatbot-input" class="chatbot-input" placeholder="Type your question...">
+                <button id="chatbot-send" class="chatbot-send">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor">
+                        <path d="M18 2L9 11M18 2l-7 7M18 2l-7 7M18 2L2 18"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+</html>
