@@ -1,2 +1,2 @@
-# binclean
-Website for BinClean.ca
+# bincare
+Website for BinCare.ca
